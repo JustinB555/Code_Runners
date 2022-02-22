@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7552454809362067311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7552454809362067309}
+  - component: {fileID: 7552454809362067310}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7552454809362067309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7552454809362067311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 975.80005, y: 729.52, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7552454809362067310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7552454809362067311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2efbe3a593d880545a821dbcd84feef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMenu: 0
+  sounds:
+  - name: Menu
+    clip: {fileID: 8300000, guid: 0f9032de5a98d8543a9f6ebe13b79e8c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Gameplay
+    clip: {fileID: 8300000, guid: a68859fd627ce98489cd51fbf1df137f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: ButtonSelect
+    clip: {fileID: 8300000, guid: ef943bde041c6cb439ae11ed16ab274a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ButtonConfirm
+    clip: {fileID: 8300000, guid: 3f71666015c1fa04a8cc81e4dc7a2923, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 24e490fa4e6b3d9409428642ac97ab39, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Melee
+    clip: {fileID: 8300000, guid: 13481ef4135892f4dbe2d0e1bc0162b6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Node
+    clip: {fileID: 8300000, guid: 38f10886969a61549b78ffa63e9ae342, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TaskProcess
+    clip: {fileID: 8300000, guid: 23f49c55ca4ae5b428b5b81a73070f53, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TaskPass
+    clip: {fileID: 8300000, guid: 5f3da85ce0625c145b78736f8cb97317, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Flick
+    clip: {fileID: 8300000, guid: 553ef884ad3867f4087a5f54a69fae35, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MeleeHit
+    clip: {fileID: 8300000, guid: 0aadd5eecddefa04092194631789c788, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: 35dc787987cd1144489adb12a70af3ee, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: ee2970190c5d7cd47bde3528e8e81562, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CP
+    clip: {fileID: 8300000, guid: ceb9ea1cc11f3c548899efb45cf779e0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: enemypop
+    clip: {fileID: 8300000, guid: c47f3ad03b22afe438361af03348b2c6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: enemyimpact
+    clip: {fileID: 8300000, guid: af9130d97b7d456419d608dbe829e877, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: enemyshatter
+    clip: {fileID: 8300000, guid: abc18cd0612d45a4a956ae98626a3f53, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: wallhit
+    clip: {fileID: 8300000, guid: b95438cf6a890544aa517f79c9adf385, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: chargingshot
+    clip: {fileID: 8300000, guid: 958d90bf9fee01d42ab89b968d9b9634, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ouch
+    clip: {fileID: 8300000, guid: 266a96fc9d5da1c42818d694fb0487db, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Collect
+    clip: {fileID: 8300000, guid: e9845c3f45efe1c4fab8c544a1721803, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: DoorOpen
+    clip: {fileID: 8300000, guid: 1568aa190ec336442ab37bef3ccca111, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Health
+    clip: {fileID: 8300000, guid: 5749f8191b35e7c40ac5ee6fc11f3552, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shield
+    clip: {fileID: 8300000, guid: 0b883b5ea53574046868ef20f9c9cbb7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Boom
+    clip: {fileID: 8300000, guid: 3874f5728dbb33d479dcf752e9222724, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: fuse
+    clip: {fileID: 8300000, guid: c918193f5077ff64cb2a725330829c93, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  audioSources: []
